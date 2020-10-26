@@ -74,3 +74,7 @@ C:\Users\VINHQD\Documents\QuanLyDuAnCNTT\MixiShop\MixiShop\obj\Debug\MixiShop.cs
 C:\Users\VINHQD\Documents\QuanLyDuAnCNTT\MixiShop\MixiShop\obj\Debug\MixiShop.csproj.CopyComplete
 C:\Users\VINHQD\Documents\QuanLyDuAnCNTT\MixiShop\MixiShop\obj\Debug\MixiShop.dll
 C:\Users\VINHQD\Documents\QuanLyDuAnCNTT\MixiShop\MixiShop\obj\Debug\MixiShop.pdb
+C:\Users\VINHQD\Documents\QuanLyDuAnCNTT\mixishop\MixiShop\bin\EntityFramework.dll
+C:\Users\VINHQD\Documents\QuanLyDuAnCNTT\mixishop\MixiShop\bin\EntityFramework.SqlServer.dll
+C:\Users\VINHQD\Documents\QuanLyDuAnCNTT\mixishop\MixiShop\bin\EntityFramework.xml
+C:\Users\VINHQD\Documents\QuanLyDuAnCNTT\mixishop\MixiShop\bin\EntityFramework.SqlServer.xml

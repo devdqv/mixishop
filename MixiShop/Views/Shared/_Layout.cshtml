@@ -72,8 +72,6 @@
                               <!-- / header top left -->
                               <div class="aa-header-top-right">
                                   <ul class="aa-head-top-nav-right">
-                                      <li><a href="/Home/Account">Đăng Ký</a></li>
-                                      <li><a href="#" data-toggle="modal" data-target="#login-modal">Đăng Nhập</a></li>
                                       <li class="hidden-xs"><a href="/Cart/Index">Giỏ Hàng</a></li>
 
                                   </ul>
@@ -173,29 +171,7 @@
                           <!-- Left nav -->
                           <ul class="nav navbar-nav">
                               <li><a href="/Home/index">Trang Chủ</a></li>
-                              <li><a href="#">VESPA 946</a></li>
-                              <li>
-                                  <a href="#">Phân Khổi Lớn <span class="caret"></span></a>
-                                  <ul class="dropdown-menu">
-                                      <li><a href="#">Harley Davidson</a></li>
-                                      <li><a href="#">Triumph</a></li>
-                                      <li><a href="#">Royal Enfield</a></li>
-
-
-                                  </ul>
-                              </li>
-                              <li><a href="#">Bộ Sưu Tập Biển Số Đẹp</a></li>
-
-                              <li>
-                                  <a href="#">HONDA <span class="caret"></span></a>
-                                  <ul class="dropdown-menu">
-                                      <li><a href="#">Honda SH 2017 - 2018 - 2019: 150cc</a></li>
-                                      <li><a href="#">Honda SH Việt 150cc</a></li>
-                                      <li><a href="#">Honda SH Việt 125cc</a></li>
-                                      <li><a href="#">Honda SHi 2008</a></li>
-
-                                  </ul>
-                              </li>
+                              @Html.Action("NavPartial","Home")
 
                               <li><a href="/Home/Contact">Liên Hệ</a></li>
 

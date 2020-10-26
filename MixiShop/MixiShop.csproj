@@ -468,6 +468,7 @@
     <Content Include="wwwroot\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="wwwroot\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="wwwroot\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Views\Home\NavPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

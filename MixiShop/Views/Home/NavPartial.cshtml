@@ -1,0 +1,8 @@
+﻿@using MixiShop.Models;
+
+@model List<Category>
+
+@foreach (Category x in Model)
+{
+    <li><a href="#">@x.Name</a></li>
+}
