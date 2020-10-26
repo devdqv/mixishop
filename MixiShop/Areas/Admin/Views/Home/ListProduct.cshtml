@@ -1,0 +1,86 @@
+﻿
+@{
+    ViewBag.Title = "ListProduct";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div style="clear: left;"></div>
+<!-- 404 error section -->
+<section id="add-product">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mb-5">
+                <div class=" mb-3">
+                    <input type="text" class="form-control mb-2" placeholder="Nhập tên hoặc mã sản phẩm ...">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="submit">Tìm Kiếm</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <table class="shadow table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Tên Sản Phẩm</th>
+                            <th>Hình Ảnh</th>
+                            <th>Hãng</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Xe Wave X</td>
+                            <td><img src="~/Areas/Admin/Assets/img/xe10.jpg" style="max-width: 50px;" alt=""></td>
+                            <td>HONDA</td>
+                            <td>
+                                <a href="Detail.html">Chi tiết</a>
+                                &nbsp;
+                                <a href="#">Xóa</a>
+                                &nbsp;
+                                <a href="#">Sửa</a>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Xe Wave Xs</td>
+                            <td><img src="~/Areas/Admin/Assets/img/xe1.jpg" style="max-width: 50px;" alt=""></td>
+                            <td>HONDA</td>
+                            <td>
+                                <a href="~/Areas/Admin/Assets/Detail.html">Chi tiết</a>
+                                &nbsp;
+                                <a href="#">Xóa</a>
+                                &nbsp;
+                                <a href="#">Sửa</a>
+                            </td>
+
+
+
+                        </tr>
+                        <tr>
+                            <td>Xe Wave Xvv</td>
+                            <td><img src="~/Areas/Admin/Assets/img/xe5.jpg" style="max-width: 50px;" alt=""></td>
+                            <td>HONDA</td>
+                            <td>
+                                <a href="Detail.html">Chi tiết</a> &nbsp;
+                                <a href="#">Xóa</a>
+                                &nbsp;
+                                <a href="#">Sửa</a>
+                            </td>
+
+
+                        </tr>
+                    </tbody>
+
+                </table>
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- / 404 error section -->

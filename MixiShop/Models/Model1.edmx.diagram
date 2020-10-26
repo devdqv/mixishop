@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="68f071bce48443c9ba63c3c02f97586a" Name="Diagram1">
+        <EntityTypeShape EntityType="mixishopModel.Brand" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="mixishopModel.Category" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="mixishopModel.Image" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="mixishopModel.OrderDetail" Width="1.5" PointX="5.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="mixishopModel.Order" Width="1.5" PointX="3" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="mixishopModel.Product" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="mixishopModel.Shop" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="mixishopModel.StoresAddress" Width="1.5" PointX="3" PointY="8.875" IsExpanded="true" />
+        <AssociationConnector Association="mixishopModel.FK__Products__BrandI__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="mixishopModel.FK__Products__Catego__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="mixishopModel.FK__Images__ProductI__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="mixishopModel.FK__OrderDeta__Order__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="mixishopModel.FK__OrderDeta__Produ__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="mixishopModel.FK__Products__ShopID__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="mixishopModel.FK__StoresAdd__ShopI__49C3F6B7" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

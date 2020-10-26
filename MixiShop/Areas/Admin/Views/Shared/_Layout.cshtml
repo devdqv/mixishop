@@ -1,0 +1,227 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daily Shop | 404</title>
+
+    <!-- Font awesome -->
+    <link href="~/Areas/Admin/Assets/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="~/Areas/Admin/Assets/css/bootstrap2.css" rel="stylesheet">
+    <!-- SmartMenus jQuery Bootstrap Addon CSS -->
+    <link href="~/Areas/Admin/Assets/css/jquery.smartmenus.bootstrap.css" rel="stylesheet">
+    <!-- Product view slider -->
+    <link rel="stylesheet" type="text/css" href="~/Areas/Admin/Assets/css/jquery.simpleLens.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" type="text/css" href="~/Areas/Admin/Assets/css/slick.css">
+    <!-- price picker slider -->
+    <link rel="stylesheet" type="text/css" href="~/Areas/Admin/Assets/css/nouislider.css">
+    <!-- Theme color -->
+    <link id="switcher" href="~/Areas/Admin/Assets/css/theme-color/default-theme.css" rel="stylesheet">
+    <!-- Top Slider CSS -->
+    <link href="~/Areas/Admin/Assets/css/sequence-theme.modern-slide-in.css" rel="stylesheet" media="all">
+
+    <!-- Main style sheet -->
+    <link href="~/Areas/Admin/Assets/css/style.css" rel="stylesheet">
+
+    <!-- Google Font -->
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+<body>
+    <!-- wpf loader Two -->
+    @*<div id="wpf-loader-two">
+        <div class="wpf-loader-two-inner">
+            <span>Loading</span>
+        </div>
+    </div>*@
+    <!-- / wpf loader Two -->
+    <!-- SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#"><i class="fa fa-chevron-up"></i></a>
+    <!-- END SCROLL TOP BUTTON -->
+    <!-- Start header section -->
+    <header id="aa-header">
+
+
+        <!-- start header bottom  -->
+        <div class="aa-header-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="aa-header-bottom-area">
+                            <!-- logo  -->
+                            <div class="aa-logo">
+                                <!-- Text based logo -->
+                                <a href="/Admin/Home/Index">
+                                    <img src="~/Areas/Admin/Assets/img/logo.png" style="max-width: 200px;" alt="">
+                                </a>
+                                <!-- img based logo -->
+                                <!-- <a href="index.html"><img src="~/Areas/Admin/Assets/img/logo.jpg" alt="logo img"></a> -->
+                            </div>
+                            <!-- / logo  -->
+                            <!-- cart box -->
+                            <div class="aa-cartbox">
+                                <a class="aa-cart-link" href="/Admin/Home/ManageOrder">
+                                    <span class="glyphicon glyphicon-check"></span>
+                                    <span class="aa-cart-title">Đơn Hàng</span>
+                                    <span class="aa-cart-notify">2</span>
+                                </a>
+
+                            </div>
+                            <!-- / cart box -->
+                            <!-- search box -->
+                            <!-- / search box -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- / header bottom  -->
+    </header>
+    <!-- / header section -->
+    <!-- menu -->
+    <section id="menu">
+        <div class="container">
+            <div class="menu-area">
+                <!-- Navbar -->
+                <div class="navbar navbar-default" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <!-- Left nav -->
+                        <ul class="nav navbar-nav">
+                            <li><a href="/Admin/Home/Index"><span class="glyphicon glyphicon-home"></span> Trang Chủ</a></li>
+                            <li>
+                                <a href="#">Sản Phẩm <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/Admin/Product/Addproduct"><span class="glyphicon glyphicon-plus"></span> Thêm Mới</a></li>
+                                    <li><a href="/Admin/Home/ListProduct"><span class="glyphicon glyphicon-list"></span> Quản Lý Sản Phẩm</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Danh Mục <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/Admin/Home/AddCategory"><span class="glyphicon glyphicon-plus-sign"></span>  Thêm Danh Mục</a></li>
+                                    <li><a href="/Admin/Home/ManageCategory"><span class="glyphicon glyphicon-book"></span>  Quản Lý Danh Mục</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="">Đơn Hàng <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/Admin/Home/ManageOrder"><span class="glyphicon glyphicon-flash"></span> Chờ Xác Nhận</a></li>
+                                    <li><a href="Admin/Home/ManageOrder"><span class="fa fa-shopping-bag"></span> Đang Giao</a></li>
+                                    <li><a href="Admin/Home/ManageOrder"><span class="glyphicon glyphicon-check"></span> Đã Giao</a></li>
+
+                                </ul>
+                            </li>
+                            <li><a href="/Admin/Home/Customers"><span class="glyphicon glyphicon-user"></span> Khách Hàng</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-book"></span> Doanh Thu</a></li>
+
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / menu -->
+    <!-- 404 error section -->
+   @RenderBody()
+    <!-- / 404 error section -->
+    <!-- footer -->
+    <footer id="aa-footer">
+
+        <div class="aa-footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="aa-footer-bottom-area">
+                            <p>Designed by <a href="http://www.markups.io/">Doan Quang Vinh</a></p>
+                            <div class="aa-footer-payment">
+                                <span class="fa fa-cc-mastercard"></span>
+                                <span class="fa fa-cc-visa"></span>
+                                <span class="fa fa-paypal"></span>
+                                <span class="fa fa-cc-discover"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- / footer -->
+    <!-- Login Modal -->
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4>Login or Register</h4>
+                    <form class="aa-login-form" action="">
+                        <label for="">Username or Email address<span>*</span></label>
+                        <input type="text" placeholder="Username or email">
+                        <label for="">Password<span>*</span></label>
+                        <input type="password" placeholder="Password">
+                        <button class="aa-browse-btn" type="submit">Login</button>
+                        <label for="rememberme" class="rememberme"><input type="checkbox" id="rememberme"> Remember me </label>
+                        <p class="aa-lost-password"><a href="#">Lost your password?</a></p>
+                        <div class="aa-register-now">
+                            Don't have an account?<a href="account.html">Register now!</a>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+
+
+
+
+
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="~/Areas/Admin/Assets/js/bootstrap.js"></script>
+    <!-- SmartMenus jQuery plugin -->
+    <script type="text/javascript" src="~/Areas/Admin/Assets/js/jquery.smartmenus.js"></script>
+    <!-- SmartMenus jQuery Bootstrap Addon -->
+    <script type="text/javascript" src="~/Areas/Admin/Assets/js/jquery.smartmenus.bootstrap.js"></script>
+    <!-- To Slider JS -->
+    <script src="~/Areas/Admin/Assets/js/sequence.js"></script>
+    <script src="~/Areas/Admin/Assets/js/sequence-theme.modern-slide-in.js"></script>
+    <!-- Product view slider -->
+    <script type="text/javascript" src="~/Areas/Admin/Assets/js/jquery.simpleGallery.js"></script>
+    <script type="text/javascript" src="~/Areas/Admin/Assets/js/jquery.simpleLens.js"></script>
+    <!-- slick slider -->
+    <script type="text/javascript" src="~/Areas/Admin/Assets/js/slick.js"></script>
+    <!-- Price picker slider -->
+    <script type="text/javascript" src="~/Areas/Admin/Assets/js/nouislider.js"></script>
+    <!-- Custom js -->
+    <script src="~/Areas/Admin/Assets/js/custom.js"></script>
+
+
+</body>
+</html>

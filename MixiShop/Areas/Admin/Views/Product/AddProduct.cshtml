@@ -1,0 +1,159 @@
+﻿
+@{
+    ViewBag.Title = "AddProduct";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div style="clear: left;"></div>
+<!-- add-product section -->
+<section id="add-product" class="Regular shadow">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Thêm Mới Sản Phẩm</h2>
+            </div>
+            <div class="col-12">
+                <form>
+                    <div class="form-group">
+                        <label for="usr">Tên xe:</label>
+                        <input type="text" class="form-control" id="bikename">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="usr">Ảnh chính:</label>
+                        <div class="dropzone img-upload">
+                            <img src="http://100dayscss.com/codepen/upload.svg" style="cursor: pointer;" class="upload-icon" />
+                            <div hidden class="img-frame">
+                                <span class="img-upload-remove"><i class="fa fa-trash-o" style="cursor: pointer;"></i></span>
+
+                                <img id="img-preview" class="img img-upload-preview" alt="">
+
+                            </div>
+
+                            <input type="file" onchange="angular.element(this).scope().setFile(this)" required accept="image/*"
+                                   id="file-img" class="upload-input" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="usr">Ảnh Khác:</label>
+                        <div class="row">
+                            <div class="col-1">
+                                <div class="dropzone img-upload">
+                                    <img src="http://100dayscss.com/codepen/upload.svg" style="cursor: pointer;" class="upload-icon" />
+                                    <div hidden class="img-frame">
+                                        <span class="img-upload-remove"><i class="fa fa-trash-o" style="cursor: pointer;"></i></span>
+
+                                        <img id="img-preview" class="img img-upload-preview" alt="">
+
+                                    </div>
+
+                                    <input type="file" onchange="angular.element(this).scope().setFile(this)" required accept="image/*"
+                                           id="file-img" class="upload-input" />
+                                </div>
+                            </div>
+                            <div class="col-1">
+                                <div class="dropzone img-upload">
+                                    <img src="http://100dayscss.com/codepen/upload.svg" style="cursor: pointer;" class="upload-icon" />
+                                    <div hidden class="img-frame">
+                                        <span class="img-upload-remove"><i class="fa fa-trash-o" style="cursor: pointer;"></i></span>
+
+                                        <img id="img-preview" class="img img-upload-preview" alt="">
+
+                                    </div>
+
+                                    <input type="file" onchange="angular.element(this).scope().setFile(this)" required accept="image/*"
+                                           id="file-img" class="upload-input" />
+                                </div>
+                            </div>
+                            <div class="col-1">
+                                <div class="dropzone img-upload">
+                                    <img src="http://100dayscss.com/codepen/upload.svg" style="cursor: pointer;" class="upload-icon" />
+                                    <div hidden class="img-frame">
+                                        <span class="img-upload-remove"><i class="fa fa-trash-o" style="cursor: pointer;"></i></span>
+
+                                        <img id="img-preview" class="img img-upload-preview" alt="">
+
+                                    </div>
+
+                                    <input type="file" onchange="angular.element(this).scope().setFile(this)" required accept="image/*"
+                                           id="file-img" class="upload-input" />
+                                </div>
+                            </div>
+                            <div class="col-1">
+                                <div class="dropzone img-upload">
+                                    <img src="http://100dayscss.com/codepen/upload.svg" style="cursor: pointer;" class="upload-icon" />
+                                    <div hidden class="img-frame">
+                                        <span class="img-upload-remove"><i class="fa fa-trash-o" style="cursor: pointer;"></i></span>
+
+                                        <img id="img-preview" class="img img-upload-preview" alt="">
+
+                                    </div>
+
+                                    <input type="file" required accept="image/*"
+                                           id="file-img" class="upload-input" />
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="pwd">Giá cũ:</label>
+                        <input type="number" class="form-control" id="oldPrice">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Giá mới:</label>
+                        <input type="number" class="form-control" id="newPrice">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Biển Kiểm Soát:</label>
+                        <input type="text" class="form-control" id="bks">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Dung tích:</label>
+                        <input type="number" class="form-control" id="capacity">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Ngày đăng ký:</label>
+                        <input type="date" class="form-control" id="registerDate">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Quãng đường xe đã đi:</label>
+                        <input type="number" class="form-control" id="odometer">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Nhập khẩu từ:</label>
+                        <input type="text" class="form-control" id="importedFrom">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pwd">Màu sắc:</label>
+                        <div class="form-group">
+                            <select class="form-control" id="sel1">
+                                <option>Xanh</option>
+                                <option>Trắng</option>
+                                <option>Vàng</option>
+                                <option>Đỏ</option>
+                                <option>Đen</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Mô tả:</label>
+                        <textarea class="form-control" rows="8" id="description"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Tồn kho:</label>
+                        <input type="number" class="form-control" id="inventory">
+                    </div>
+                    <button type="submit" class="btnUpload">Đăng Và Công Khai</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- / add-product section -->

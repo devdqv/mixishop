@@ -1,0 +1,85 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Start Promo section -->
+<div style="clear: both;"></div>
+<!-- / catg header banner section -->
+<!-- Cart view section -->
+<section id="cart-view">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="cart-view-area">
+                    <div class="cart-view-table">
+                        <form action="">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th></th>
+                                            <th></th>
+                                            <th>Product</th>
+                                            <th>Price</th>
+                                            <th>Quantity</th>
+                                            <th>Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><a class="remove" href="#"><fa class="fa fa-close"></fa></a></td>
+                                            <td><a href="#"><img src="~/wwwroot/img/xe1.jpg" alt="img"></a></td>
+                                            <td><a class="aa-cart-title" href="#">Honda X122</a></td>
+                                            <td>$250</td>
+                                            <td><input class="aa-cart-quantity" type="number" value="1"></td>
+                                            <td>$250</td>
+                                        </tr>
+                                        <tr>
+                                            <td><a class="remove" href="#"><fa class="fa fa-close"></fa></a></td>
+                                            <td><a href="#"><img src="~/wwwroot/img/xe1.jpg" alt="img"></a></td>
+                                            <td><a class="aa-cart-title" href="#">Wave alpha 4</a></td>
+                                            <td>$150</td>
+                                            <td><input class="aa-cart-quantity" type="number" value="1"></td>
+                                            <td>$150</td>
+                                        </tr>
+                                        <tr>
+                                            <td><a class="remove" href="#"><fa class="fa fa-close"></fa></a></td>
+                                            <td><a href="#"><img src="~/wwwroot/img/xe1.jpg" alt="img"></a></td>
+                                            <td><a class="aa-cart-title" href="#">vesga 3</a></td>
+                                            <td>$50</td>
+                                            <td><input class="aa-cart-quantity" type="number" value="1"></td>
+                                            <td>$50</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="6" class="aa-cart-view-bottom">
+
+                                                <input class="aa-cart-view-btn" type="submit" value="Cập nhật giỏ hàng">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </form>
+                        <!-- Cart Total view -->
+                        <div class="cart-view-total">
+                            <h4>Tổng tiền</h4>
+                            <table class="aa-totals-table">
+                                <tbody>
+
+                                    <tr>
+                                        <th>Total</th>
+                                        <td>$450</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <a href="#" class="aa-cart-view-btn">Đặt Hàng</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- / Cart view section -->
